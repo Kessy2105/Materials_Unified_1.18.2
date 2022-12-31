@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "materialsunified:block/citrine_block"
+    "all": "materialsunified:block/citrine_ore"
   }
 }
