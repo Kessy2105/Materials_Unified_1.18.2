@@ -4,9 +4,10 @@
 
   "block.materialsunified.citrine_block": "Citrine Block",
   "block.materialsunified.raw_citrine_block": "Raw Citrine Block",
-
   "block.materialsunified.citrine_ore": "Citrine Ore",
   "block.materialsunified.deepslate_citrine_ore": "Deepslate Citrine Ore",
   "block.materialsunified.netherrack_citrine_ore": "Netherrack Citrine Ore",
-  "block.materialsunified.endstone_ore": "Endstone Citrine Ore"
+  "block.materialsunified.endstone_ore": "Endstone Citrine Ore",
+
+  "itemGroup.materialsunified": "Materials Unified"
 }

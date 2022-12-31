@@ -1,7 +1,6 @@
 package com.alessandro.materialsunified.item;
 
 import com.alessandro.materialsunified.MaterialsUnified;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,10 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, MaterialsUnified.MOD_ID);
 
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // New item with his name
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MATERIALS_UNIFIED_TAB))); // New item with his name
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // New item with his name
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MATERIALS_UNIFIED_TAB))); // New item with his name
 
     public  static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
