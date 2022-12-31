@@ -1,5 +1,6 @@
 package com.alessandro.materialsunified;
 
+import com.alessandro.materialsunified.block.ModBlocks;
 import com.alessandro.materialsunified.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -31,7 +32,9 @@ public class MaterialsUnified
     public MaterialsUnified() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Initializing
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
